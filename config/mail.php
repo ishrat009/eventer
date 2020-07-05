@@ -65,6 +65,10 @@ return [
         'log' => [
             'transport' => 'log',
             'channel' => env('MAIL_LOG_CHANNEL'),
+            'to' => [
+                'address' => 'ishrat.cste@gmail.com',
+                'name' => 'Ishrat'
+            ],
         ],
 
         'array' => [

@@ -61,7 +61,7 @@ class RegisterController extends Controller
     {
         abort_unless(config('boilerplate.access.user.registration'), 404);
 
-        return view('frontend.auth.register');
+        return view('frontend.auth.register-new');
     }
 
     /**
@@ -72,7 +72,7 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
+        $validator = Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', Rule::unique('users')],
             'password' => PasswordRules::register($data['email'] ?? null),
@@ -80,6 +80,8 @@ class RegisterController extends Controller
         ], [
             'g-recaptcha-response.required_if' => __('validation.required', ['attribute' => 'captcha']),
         ]);
+return $validator;
+        //dd($validator->errors());
     }
 
     /**
