@@ -31,6 +31,15 @@
     <div class="section-top-border">
       <div class="row">
         <div class="col-lg-8 col-md-8">
+          @if ($errors->any())
+              <div class="alert alert-danger">
+                  <ul>
+                      @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                      @endforeach
+                  </ul>
+              </div>
+          @endif
           <h3 class="mb-30"> @lang('Register')</h3>
           <form action="{{route('frontend.auth.register')}}" method="POST">
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -49,6 +58,7 @@
               <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
                 <input type="password" name="password" id="password" class="single-input" placeholder="{{ __('Password') }}" required
                 autocomplete="new-password" />
+                <code>[*Minimum 8 characters; at least 1 Capital and 1 Small Alphabet, 1 Number and 1 Special Character]</code>
             </div>
 
             <div class="input-group-icon mt-10">
@@ -60,7 +70,7 @@
             <div class="input-group-icon mt-10">
               <div class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></div>
               <div class="form-select" id="default-select">
-                    <select >
+                    <select name="lead_source" id="lead_source">
                       <option value="">Where do you heard about us?</option>
                       <option value="social media">Social Media</option>
                       <option value="search engine">Search Engine</option>
@@ -80,11 +90,16 @@
                 </div><!--row-->
             @endif
 
+            <div class="row"><br/></div>
+
             <div class="input-group-icon mt-10">
                 <div class="col-md-6 offset-md-4">
                     <button class="btn genric-btn primary" type="submit">@lang('Register')</button>
                 </div>
             </div>
+
+            <div class="row"><br/></div>
+            <div class="row"><br/></div>
 
             </div>
           </form>

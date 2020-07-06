@@ -19,7 +19,7 @@
                           </div>
                           <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">15 July, 2020</span>
                           <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Quarantine Concert</h3>
-                          <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Online</p>
+                          <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Online with Registered Particiants</p>
                       </div>
                   </div>
               </div>
@@ -47,7 +47,7 @@
                                   <img src="{{ asset('assets/img/performer/1.png') }}" alt="">
                               </div>
                               <div class="performer_heading">
-                                  <h4>Shayan Chowshury Arnob</h4>
+                                  <h4>Shayan Chowdhury Arnob</h4>
                                   <span>Singer</span>
                               </div>
                           </div>
@@ -58,8 +58,8 @@
                                   <img src="{{ asset('assets/img/performer/2.png') }}" alt="">
                               </div>
                               <div class="performer_heading">
-                                  <h4>Protik Hasan</h4>
-                                  <span>Acoustic drum</span>
+                                  <h4>Bassbaba Sumon</h4>
+                                  <span>Singer</span>
                               </div>
                           </div>
                       </div>
@@ -69,8 +69,8 @@
                                   <img src="{{ asset('assets/img/performer/3.png') }}" alt="">
                               </div>
                               <div class="performer_heading">
-                                  <h4>Salmon Vicky</h4>
-                                  <span>Acoustic drum</span>
+                                  <h4>Minar</h4>
+                                  <span>Singer</span>
                               </div>
                           </div>
                       </div>
@@ -80,8 +80,8 @@
                                   <img src="{{ asset('assets/img/performer/4.png') }}" alt="">
                               </div>
                               <div class="performer_heading">
-                                  <h4>Filaris Habol</h4>
-                                  <span>Acoustic drum</span>
+                                  <h4>Anupam Roy</h4>
+                                  <span>Singer</span>
                               </div>
                           </div>
                       </div>
@@ -99,7 +99,7 @@
               <div class="col-lg-8">
                   <div class="section_title text-center mb-80">
                       <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" >About Program</h3>
-                      <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" >The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different.</p>
+                      <p class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" >The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different backgound.</p>
                   </div>
               </div>
           </div>
@@ -143,12 +143,12 @@
                               <div class="circle_img"></div>
                               <div class="porgram_top">
                                   <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                  <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
+                                  <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                   <img src="{{ asset('assets/img/program_details/1.png') }}" alt="">
                               </div>
-                              <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                              <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Arnob</h4>
                           </div>
                       </div>
                       <div class="single_propram">
@@ -156,12 +156,12 @@
                               <div class="circle_img"></div>
                               <div class="porgram_top">
                                   <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                  <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
+                                  <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                                   <img src="{{ asset('assets/img/program_details/2.png') }}" alt="">
                               </div>
-                              <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                              <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Bassbaba Sumon</h4>
                           </div>
                       </div>
                       <div class="single_propram">
@@ -169,12 +169,12 @@
                               <div class="circle_img"></div>
                               <div class="porgram_top">
                                   <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                  <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
+                                  <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                   <img src="{{ asset('assets/img/program_details/3.png') }}" alt="">
                               </div>
-                              <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                              <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Minar</h4>
                           </div>
                       </div>
                       <div class="single_propram">
@@ -182,12 +182,12 @@
                               <div class="circle_img"></div>
                               <div class="porgram_top">
                                   <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
-                                  <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Feb 2020</h4>
+                                  <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                                   <img src="{{ asset('assets/img/program_details/4.png') }}" alt="">
                               </div>
-                              <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Mr. Zosoldos</h4>
+                              <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Anupam</h4>
                           </div>
                       </div>
                   </div>
@@ -238,16 +238,15 @@
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
       </script>
       <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-          <h3>Concert 2020</h3>
+          <h3>Quarantine Concert</h3>
           <div class="info_wrap">
               <div class="single_info">
-                  <span>Vanue:</span>
-                  <p>26/A, Coontum Avenu
-                      New York-2783</p>
+                  <span>Online:</span>
+                  <p>With Registered Particiapants </p>
               </div>
               <div class="single_info">
                   <span>Phone:</span>
-                  <p>+10 (88) 267 368 283</p>
+                  <p>+ (880) 1745 368 283</p>
               </div>
               <div class="single_info">
                   <span>Email:</span>
@@ -261,11 +260,32 @@
   <div id="queries" class="query_area contact-section">
     <div class="container">
       <div class="row justify-content-center">
+
+        @if(session()->has('message'))
           <div class="col-12">
-              <h2 class="contact-title">Get in Touch</h2>
+            <div class="alert alert-success">
+                {{ session()->get('message') }}
+            </div>
+          </div>
+        @endif
+        @if ($errors->any())
+          <div class="col-12">
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+          </div>
+        @endif
+          <div class="col-12">
+              <h2 class="contact-title">Got Any Queries?</h2>
           </div>
           <div class="col-lg-8">
-              <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+              <form action="{{route('frontend.query.store')}}" method="POST" class="form-contact" id="cf-form">
+
+                  <input type="hidden" name="_token" value="{{ csrf_token() }}">
                   <div class="row">
                       <div class="col-12">
                           <div class="form-group">
@@ -297,22 +317,22 @@
               <div class="media contact-info">
                   <span class="contact-info__icon"><i class="ti-home"></i></span>
                   <div class="media-body">
-                      <h3>Buttonwood, California.</h3>
-                      <p>Rosemead, CA 91770</p>
+                      <h3>ICT Tower, Dhaka.</h3>
+                      <p>E-14/X, BCC Bhaban, Dhaka 1207</p>
                   </div>
               </div>
               <div class="media contact-info">
                   <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                   <div class="media-body">
-                      <h3>+1 253 565 2365</h3>
-                      <p>Mon to Fri 9am to 6pm</p>
+                      <h3>+88-02-8181052</h3>
+                      <p>Sun to Thu 9am to 5pm</p>
                   </div>
               </div>
               <div class="media contact-info">
                   <span class="contact-info__icon"><i class="ti-email"></i></span>
                   <div class="media-body">
-                      <h3>support@colorlib.com</h3>
-                      <p>Send us your query anytime!</p>
+                      <h3>info@doict.gov.bd</h3>
+                      <p>Send us your queries anytime!</p>
                   </div>
               </div>
           </div>

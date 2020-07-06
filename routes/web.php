@@ -31,3 +31,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'admin'], f
      */
     includeRouteFiles(__DIR__.'/backend/');
 });
+
+Route::get('f5', function() {
+	\Illuminate\Support\Facades\Artisan::call('clear-compiled');
+    \Illuminate\Support\Facades\Artisan::call('view:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:clear');
+    \Illuminate\Support\Facades\Artisan::call('cache:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:cache');
+});

@@ -1,6 +1,7 @@
 <?php
 
 use App\Domains\Auth\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\QueriesController;
 use App\Domains\Auth\Http\Controllers\Frontend\User\AccountController;
 use App\Domains\Auth\Http\Controllers\Frontend\User\DashboardController;
 use App\Domains\Auth\Http\Controllers\Frontend\User\ProfileController;
@@ -10,6 +11,7 @@ use App\Domains\Auth\Http\Controllers\Frontend\User\ProfileController;
  * All route names are prefixed with 'frontend.'.
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::post('/query', [QueriesController::class, 'store'])->name('query.store');
 
 /*
  * These frontend controllers require the user to be logged in

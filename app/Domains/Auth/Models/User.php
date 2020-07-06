@@ -57,6 +57,7 @@ class User extends Authenticatable implements MustVerifyEmail, Recordable, TwoFa
         'to_be_logged_out',
         'provider',
         'provider_id',
+        'lead_source',
     ];
 
     /**
