@@ -155,7 +155,7 @@
                           <div class="inner_wrap">
                               <div class="circle_img"></div>
                               <div class="porgram_top">
-                                  <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
+                                  <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">4.00-4.30pm</span>
                                   <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -168,7 +168,7 @@
                           <div class="inner_wrap">
                               <div class="circle_img"></div>
                               <div class="porgram_top">
-                                  <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
+                                  <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">4.30-5.00pm</span>
                                   <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -181,7 +181,7 @@
                           <div class="inner_wrap">
                               <div class="circle_img"></div>
                               <div class="porgram_top">
-                                  <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">3.00-4.00pm</span>
+                                  <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">5.00-6.00pm</span>
                                   <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">15 July 2020</h4>
                               </div>
                               <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">

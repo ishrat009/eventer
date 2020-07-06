@@ -55,10 +55,17 @@
             </div>
 
             <div class="input-group-icon mt-10">
+                <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <input type="text" name="mobile" id="mobile" class="single-input" placeholder="{{ __('Mobile') }}"
+                value="{{ old('mobile') }}" required autocomplete="mobile" />
+            </div>
+
+            <div class="input-group-icon mt-10">
               <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
                 <input type="password" name="password" id="password" class="single-input" placeholder="{{ __('Password') }}" required
                 autocomplete="new-password" />
-                <code>[*Minimum 8 characters; at least 1 Capital and 1 Small Alphabet, 1 Number and 1 Special Character]</code>
+                <code>[*Minimum 8 characters; at least 1 Capital and 1 Small Alphabet, 1 Number and 1 Special Character.
+                  No repeated string. No vulnerable, easily breachable, stereotypical dictionary words either.]</code>
             </div>
 
             <div class="input-group-icon mt-10">

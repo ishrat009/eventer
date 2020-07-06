@@ -19,6 +19,7 @@
                                         <li><a href="{{url('/')}}">home</a></li>
                                         <li><a href="{{url('/')}}#performers">Performers</a></li>
                                         <li><a href="{{url('/')}}#queries">Queries?</a></li>
+                                        <li class="generic-btn primary"><a href="{{url('/login')}}">Login</a></li>
                                     </ul>
                                 </nav>
                             </div>

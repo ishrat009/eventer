@@ -47,6 +47,7 @@ class User extends Authenticatable implements MustVerifyEmail, Recordable, TwoFa
     protected $fillable = [
         'name',
         'email',
+        'mobile',
         'email_verified_at',
         'password',
         'password_changed_at',
